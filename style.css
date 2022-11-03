@@ -1,0 +1,297 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box ;
+}
+.container-wrapper{
+  display: flex;
+  align-items: flex-end;
+  column-gap: 5px;
+  cursor: pointer;
+}
+.container-wrapper {
+  padding: 50px;
+transition: transform .2s; /* Animation */
+ 
+margin: 0 auto;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.container .element{
+  display: flex;
+  flex-direction: column;
+}
+h3{
+  text-align: center;
+}
+.container .element:nth-child(1){
+  background-color: #e2eeff;
+  color:#0060f0;
+  border: 4px;
+ 
+  
+}
+.element:nth-child(1):hover{
+   box-shadow:blue;
+ 
+}
+.element:nth-child(1):active{
+  border: 1px solid #0060f0;
+}
+.container .element{
+      background-color: #d8f8ff;
+      color: rgb(0, 117, 140);
+      border-radius: 4px;  
+      font-family: Arial, sans-serif;
+   font-weight: 100;
+   font-size: 16px;
+  }
+  
+  
+  .container1 .element1{
+      background-color:#ffe7e7;
+      color: #d60024;
+      border-radius: 4px;
+      font-family: Arial, sans-serif;
+      font-weight: 100;
+      font-size: 16px;
+      
+  }
+  .container2 .element2 {
+      background-color: #f3e8fd;
+      color: #6232ec;
+       border-radius: 4px;
+       margin-right: 15px;
+       font-family: Arial, sans-serif;
+       font-weight: 100;
+       font-size: 16px;
+  }
+  .container2 .element2:nth-child(3) {
+      background-color:#dff3ff ;
+      color: #003355;
+      border-radius: 4px;
+       font-family: Arial, sans-serif;
+      font-weight: 100;
+      font-size: 16px;
+  }
+  .container2 .element2:nth-child(4) {
+      background-color:#ffe6d4;
+      color: #c73200;
+      border-radius: 4px;
+      font-family: Arial, sans-serif;
+      font-weight: 100;
+      font-size: 16px;
+  }
+  .container3 .element3{
+      background-color: #f3e8fd;
+      color: #6232ec; 
+      border-radius: 4px; 
+      font-family: Arial, sans-serif;
+      font-weight: 100;
+      font-size: 16px;
+  
+  }
+  .container4 .element4{
+      background-color: #f3e8fd;
+      color: #6232ec;
+    border-radius: 4px;
+  }
+  .container5 .element5{
+      background-color: #f3e8fd;
+      color: #6232ec;
+     border-radius: 4px;
+  }
+  .container6 .element6{
+      background-color: #f3e8fd;
+      color: #6232ec;
+      border-radius: 4px;
+  }
+  .container7 .element7{
+      background-color: #f3e8fd;
+      color: #6232ec;
+      border-radius: 4px;
+  }
+  .container8 .element8{
+   background-color: #f3e8fd;
+      color: #6232ec;
+      border-radius: 4px;
+  }
+  .container8 .element8:nth-child(4) {
+  background-color: #e7e7ea;
+  color: #3f374f;
+  border-radius: 4px;
+  }
+  .container9 .element9:nth-child(4){
+      background-color: #e7e7ea;
+      color: #3f374f;
+      border-radius: 4px;
+  }
+  .container9 .element9{
+      background-color: #f3e8fd;
+      color: #6232ec;
+      border-radius: 4px;
+  }
+.container10 .element10:nth-child(4){
+  background-color: #e7e7ea;
+      color: #3f374f;
+      border-radius: 4px;
+
+}
+.container10 .element10{
+  background-color: #f3e8fd;
+  color: #6232ec;
+  border-radius: 4px;
+}
+.container11 .element11:nth-child(4){
+  background-color: #e7e7ea;
+ color: #3f374f;
+ border-radius: 4px;
+  
+}
+ .container11 .element11{
+  background-color:#f3e8fd ;
+  color: #6232ec;
+  border-radius: 4px;
+ }
+ .container12 .element12:nth-child(1){
+  background-color: #fef7e0;
+  color: #945700;
+  border-radius: 4px;
+ }
+ .container12 .element12:nth-child(6){
+  background-color: #e7e7ea;
+  color: #3f374f;
+  border-radius: 4px;
+ }
+ .container12 .element12{
+  background-color:#d6f9e8 ;
+  color: #227754;
+  border-radius: 4px;
+ }
+ .container13 .element13:nth-child(1){
+  background-color: #e2eeff;
+  color: #0060f0;
+  border-radius: 4px;
+ }
+ .container13 .element13:nth-child(2){
+  background-color: #fef7e0;
+  color: #945700;
+  border-radius: 4px;
+ }
+ .container13 .element13:nth-child(3){
+  background-color: #fef7e0;
+  color: #945700;
+  border-radius: 4px;
+ }
+ .container13 .element13{
+  background-color: #d6f9e8;
+  color: #227754;
+  border-radius: 4px;
+ }
+ .container13 .element13:nth-child(6){
+  background-color: #e7e7ea;
+  color: #3f374f;
+  border-radius: 4px;
+ }
+ .container14 .element14:nth-child(1){
+   background-color: #e2eeff;
+   color: #0060f0;
+   border-radius: 4px;
+ }
+ .container14 .element14:nth-child(2){
+  background-color: #e2eeff;
+  color: #0060f0;
+  border-radius: 4px;
+}
+.container14 .element14:nth-child(5){
+  background-color: #d6f9e8;
+  color: #227754;
+  border-radius: 4px;
+}
+.container14 .element14:nth-child(6){
+  background-color: #e7e7ea;
+  color: #3f374f;
+  border-radius: 4px;
+}
+.container14 .element14{
+  background-color: #fef7e0;
+  color: #945700;
+  border-radius: 4px;
+}
+.container15 .element15:nth-child(6){
+background-color: #e7e7ea;
+color: #3f374f;
+border-radius: 4px;
+}
+.container15 .element15:nth-child(5){
+  background-color: #d6f9e8;
+  color: #227754;
+  border-radius: 4px;
+}
+.container15 .element15:nth-child(4){
+  background-color: #fef7e0;
+  color: #945700;
+  border-radius: 4px;
+}
+.container15 .element15{
+  background-color: #e2eeff;
+  color: #0060f0;
+  border-radius: 4px;
+}
+.container16 .element16{
+  background-color: #e2eeff;
+  color: #0060f0;
+  border-radius: 4px;
+}
+.container16 .element16:nth-child(6){
+  background-color: #e7e7ea;
+  color: #3f374f;
+  border-radius: 4px;
+}
+.container16 .element16:nth-child(5){
+  background-color: #d6f9e8;
+  color: #227754;
+  border-radius: 4px;
+}
+.container17 .element17:nth-child(7){
+  background-color: #e7e7ea;
+  color: #3f374f;
+  border-radius: 4px;
+}
+.container17 .element17{
+  background-color: #ffe7eb;
+  color: #cd1d5e;
+  border-radius: 4px;
+}
+.flex-block{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row;
+  margin-left: 560px;
+  
+}
+.series{
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+  row-gap: 5px;
+}
+
+.upper {
+  background: #dff3ff;
+  color: #003355;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.lower{
+  color: #c73200;
+  background-color:#ffe6d4;
+  border-radius: 4px;
+  margin-right: 5px;
+  
+}
